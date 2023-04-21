@@ -1,0 +1,12 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "simple weather app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Lucky",
+  "license": "ISC"
+}
