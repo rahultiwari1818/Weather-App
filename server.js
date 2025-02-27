@@ -14,7 +14,7 @@ app.get("/",function(req,res){
 
 app.post("/",function(req,res){
     let city = req.body.city;
-    let url = `http://api.weatherapi.com/v1/current.json?key=29e3bb3c142f40f7997144326232503&q=${city}&aqi=no`;
+    let url = `http://api.weatherapi.com/v1/current.json?key=apiKey&q=${city}&aqi=no`;
     http.get(url,function(response){
         response.on("data",function(data){
             try{       
